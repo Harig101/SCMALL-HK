@@ -201,40 +201,38 @@ tailwind.config = {
   </section>
 
   <!-- Stats Section -->
-  <section id="brands" class="py-16">
-    <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center" data-i18n="stats.title">品牌矩陣</h2>
-    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="bg-white rounded-card p-8 shadow-sm border border-brand-border hover:shadow-lg transition-shadow">
-        <p class="text-sm font-semibold text-brand-muted mb-3" data-i18n="stats.office.title">寫字樓精選線</p>
-        <div class="flex items-end gap-2 mb-4">
-          <span class="text-5xl font-extrabold">182</span>
-          <span class="text-lg font-bold mb-1" data-i18n="stats.unit">台</span>
+  <section id="brands" class="py-12">
+    <div class="flex flex-wrap justify-center items-center gap-8 max-h-[80px]">
+      <div class="flex items-center gap-3 px-4 py-3">
+        <span class="text-4xl font-extrabold text-brand-dark">182</span>
+        <div class="text-left">
+          <p class="text-xs font-semibold text-brand-muted leading-none">寫字樓精選線</p>
+          <span class="text-[10px] text-brand-accent font-bold uppercase tracking-wider">核心商圈</span>
         </div>
-        <span class="inline-block px-3 py-1 bg-brand-dark text-white text-xs font-bold rounded-full uppercase tracking-wider" data-i18n="stats.office.tag">核心商圈</span>
       </div>
-      <div class="bg-white rounded-card p-8 shadow-sm border border-brand-border hover:shadow-lg transition-shadow">
-        <p class="text-sm font-semibold text-brand-muted mb-3" data-i18n="stats.campus.title">校園輕食線</p>
-        <div class="flex items-end gap-2 mb-4">
-          <span class="text-5xl font-extrabold">96</span>
-          <span class="text-lg font-bold mb-1" data-i18n="stats.unit">台</span>
+      <div class="w-px h-10 bg-brand-border"></div>
+      <div class="flex items-center gap-3 px-4 py-3">
+        <span class="text-4xl font-extrabold text-brand-dark">96</span>
+        <div class="text-left">
+          <p class="text-xs font-semibold text-brand-muted leading-none">校園輕食線</p>
+          <span class="text-[10px] text-blue-600 font-bold uppercase tracking-wider">高校覆蓋</span>
         </div>
-        <span class="inline-block px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full uppercase tracking-wider" data-i18n="stats.campus.tag">高校覆蓋</span>
       </div>
-      <div class="bg-white rounded-card p-8 shadow-sm border border-brand-border hover:shadow-lg transition-shadow">
-        <p class="text-sm font-semibold text-brand-muted mb-3" data-i18n="stats.hub.title">交通樞紐線</p>
-        <div class="flex items-end gap-2 mb-4">
-          <span class="text-5xl font-extrabold">74</span>
-          <span class="text-lg font-bold mb-1" data-i18n="stats.unit">台</span>
+      <div class="w-px h-10 bg-brand-border"></div>
+      <div class="flex items-center gap-3 px-4 py-3">
+        <span class="text-4xl font-extrabold text-brand-dark">74</span>
+        <div class="text-left">
+          <p class="text-xs font-semibold text-brand-muted leading-none">交通樞紐線</p>
+          <span class="text-[10px] text-gray-600 font-bold uppercase tracking-wider">高客流</span>
         </div>
-        <span class="inline-block px-3 py-1 bg-gray-700 text-white text-xs font-bold rounded-full uppercase tracking-wider" data-i18n="stats.hub.tag">高客流</span>
       </div>
-      <div class="bg-white rounded-card p-8 shadow-sm border border-brand-border hover:shadow-lg transition-shadow">
-        <p class="text-sm font-semibold text-brand-muted mb-3" data-i18n="stats.community.title">社區便民線</p>
-        <div class="flex items-end gap-2 mb-4">
-          <span class="text-5xl font-extrabold">128</span>
-          <span class="text-lg font-bold mb-1" data-i18n="stats.unit">台</span>
+      <div class="w-px h-10 bg-brand-border"></div>
+      <div class="flex items-center gap-3 px-4 py-3">
+        <span class="text-4xl font-extrabold text-brand-dark">128</span>
+        <div class="text-left">
+          <p class="text-xs font-semibold text-brand-muted leading-none">社區便民線</p>
+          <span class="text-[10px] text-brand-dark font-bold uppercase tracking-wider">24小時</span>
         </div>
-        <span class="inline-block px-3 py-1 bg-brand-dark text-white text-xs font-bold rounded-full uppercase tracking-wider" data-i18n="stats.community.tag">24小時</span>
       </div>
     </div>
   </section>
@@ -255,50 +253,104 @@ tailwind.config = {
     <div class="flex flex-wrap gap-3 mb-8">
       <button class="px-6 py-2 bg-brand-accent text-white rounded-full text-sm font-bold" data-i18n="products.cat1">即飲飲料</button>
       <button class="px-6 py-2 bg-white/50 hover:bg-white rounded-full text-sm font-semibold border border-brand-border transition-all" data-i18n="products.cat2">健康零食</button>
-      <button class="px-6 py-2 bg-white/50 hover:bg-white rounded-full text-sm font-semibold border border-brand-border transition-all" data-i18n="products.cat3">咖啡熱飲</button>
-      <button class="px-6 py-2 bg-white/50 hover:bg-white rounded-full text-sm font-semibold border border-brand-border transition-all" data-i18n="products.cat4">個人護理</button>
     </div>
 
     <!-- Product Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="group bg-white rounded-card p-6 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
-        <div class="aspect-[4/3] bg-gray-100 rounded-xl mb-6 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&h=300&fit=crop" alt="檸檬茶" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform"/>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="productGrid">
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/ec57763c6pc315a74eede152c9980e17.jpeg" alt="清新檸檬茶" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
         </div>
-        <h3 class="text-xl font-extrabold mb-2" data-i18n="product1.name">維他檸檬茶 310ml</h3>
-        <p class="text-sm text-brand-muted mb-4" data-i18n="product1.desc">港式經典即飲 · 高復購</p>
+        <h3 class="text-base font-extrabold mb-1">清新檸檬茶</h3>
+        <p class="text-xs text-brand-muted mb-3">CHILL ZONE · 零卡零脂</p>
         <div class="flex items-center justify-between">
-          <span class="px-3 py-1 bg-brand-dark text-white text-xs font-bold rounded" data-i18n="product1.sales">月銷 9,800+</span>
-          <button class="flex items-center gap-2 px-4 py-2 bg-brand-accent text-white text-sm font-bold rounded-lg hover:brightness-110 transition-all">
-            <span class="text-lg leading-none">+</span> <span data-i18n="product.apply">申請上架</span>
+          <span class="px-2 py-1 bg-brand-accent/10 text-brand-accent text-xs font-bold rounded">飲品</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
           </button>
         </div>
       </div>
 
-      <div class="group bg-white rounded-card p-6 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
-        <div class="aspect-[4/3] bg-gray-100 rounded-xl mb-6 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop" alt="烏龍茶" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform"/>
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/0e52577bcre36f944567fe2f5463aa83.jpeg" alt="蜜桃蘋果醋" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
         </div>
-        <h3 class="text-xl font-extrabold mb-2" data-i18n="product2.name">無糖烏龍茶 500ml</h3>
-        <p class="text-sm text-brand-muted mb-4" data-i18n="product2.desc">輕負擔茶飲 · 午後場景</p>
+        <h3 class="text-base font-extrabold mb-1">蜜桃蘋果醋</h3>
+        <p class="text-xs text-brand-muted mb-3">CHILL ZONE · 低糖健康</p>
         <div class="flex items-center justify-between">
-          <span class="px-3 py-1 bg-brand-dark text-white text-xs font-bold rounded" data-i18n="product2.sales">月銷 7,200+</span>
-          <button class="flex items-center gap-2 px-4 py-2 bg-brand-accent text-white text-sm font-bold rounded-lg hover:brightness-110 transition-all">
-            <span class="text-lg leading-none">+</span> <span data-i18n="product.apply">申請上架</span>
+          <span class="px-2 py-1 bg-brand-accent/10 text-brand-accent text-xs font-bold rounded">飲品</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
           </button>
         </div>
       </div>
 
-      <div class="group bg-white rounded-card p-6 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
-        <div class="aspect-[4/3] bg-gray-100 rounded-xl mb-6 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400&h=300&fit=crop" alt="堅果能量棒" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform"/>
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/45c92a4f8i4c6a4e29a10bff535e0360.jpeg" alt="港式奶茶" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
         </div>
-        <h3 class="text-xl font-extrabold mb-2" data-i18n="product3.name">堅果能量組合裝</h3>
-        <p class="text-sm text-brand-muted mb-4" data-i18n="product3.desc">辦公室補給 · 高毛利</p>
+        <h3 class="text-base font-extrabold mb-1">港式奶茶</h3>
+        <p class="text-xs text-brand-muted mb-3">CHILL ZONE · 經典港味</p>
         <div class="flex items-center justify-between">
-          <span class="px-3 py-1 bg-brand-dark text-white text-xs font-bold rounded" data-i18n="product3.sales">月銷 6,500+</span>
-          <button class="flex items-center gap-2 px-4 py-2 bg-brand-accent text-white text-sm font-bold rounded-lg hover:brightness-110 transition-all">
-            <span class="text-lg leading-none">+</span> <span data-i18n="product.apply">申請上架</span>
+          <span class="px-2 py-1 bg-brand-accent/10 text-brand-accent text-xs font-bold rounded">飲品</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/dec8677falef371a767a300aafff2d19.jpeg" alt="香酥魚骨" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
+        </div>
+        <h3 class="text-base font-extrabold mb-1">香酥魚骨</h3>
+        <p class="text-xs text-brand-muted mb-3">小谷道 · 天然高鈣</p>
+        <div class="flex items-center justify-between">
+          <span class="px-2 py-1 bg-blue-600/10 text-blue-600 text-xs font-bold rounded">零食</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/723566fb5s092541c691d9384bd2f2a0.jpeg" alt="柿餅丁" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
+        </div>
+        <h3 class="text-base font-extrabold mb-1">柿餅丁</h3>
+        <p class="text-xs text-brand-muted mb-3">館潮 · 傳統風味</p>
+        <div class="flex items-center justify-between">
+          <span class="px-2 py-1 bg-blue-600/10 text-blue-600 text-xs font-bold rounded">零食</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/b2e2f1decq36f1396c918908e83fb38f.jpeg" alt="黑蒜" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
+        </div>
+        <h3 class="text-base font-extrabold mb-1">黑蒜</h3>
+        <p class="text-xs text-brand-muted mb-3">鮮潮 · 發酵健康食品</p>
+        <div class="flex items-center justify-between">
+          <span class="px-2 py-1 bg-blue-600/10 text-blue-600 text-xs font-bold rounded">零食</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="group bg-white rounded-card p-5 shadow-sm border border-transparent hover:shadow-xl hover:border-brand-accent/20 transition-all">
+        <div class="aspect-square bg-gray-50 rounded-xl mb-4 overflow-hidden">
+          <img src="images/products/2e4375121o4341cc1f9d9c6f602e3ce4.jpeg" alt="小黃魚酥" class="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform"/>
+        </div>
+        <h3 class="text-base font-extrabold mb-1">小黃魚酥</h3>
+        <p class="text-xs text-brand-muted mb-3">酥潮 · 即食海味</p>
+        <div class="flex items-center justify-between">
+          <span class="px-2 py-1 bg-blue-600/10 text-blue-600 text-xs font-bold rounded">零食</span>
+          <button class="w-7 h-7 rounded-full bg-brand-accent text-white flex items-center justify-center hover:brightness-110 transition-all">
+            <span class="material-icons text-sm">add</span>
           </button>
         </div>
       </div>
@@ -317,7 +369,7 @@ tailwind.config = {
       </p>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="activityGrid">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10" id="activityGrid">
       <!-- Activity cards injected by JS -->
     </div>
   </section>
@@ -360,18 +412,18 @@ tailwind.config = {
       <div class="p-10 bg-white rounded-xl border border-brand-border flex flex-col">
         <div class="flex items-center gap-4 mb-8">
           <div class="w-16 h-16 rounded-full overflow-hidden bg-brand-border">
-            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" alt="Portrait"/>
+            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Portrait"/>
           </div>
           <div>
-            <p class="font-bold text-brand-dark" data-i18n="stories.card1.name">Mark J. Sterling</p>
-            <p class="text-xs text-brand-muted uppercase tracking-wider" data-i18n="stories.card1.role">設施總監</p>
+            <p class="font-bold text-brand-dark" data-i18n="stories.card1.name">Michel Kwok</p>
+            <p class="text-xs text-brand-muted uppercase tracking-wider" data-i18n="stories.card1.role">青年旅舍管理員</p>
           </div>
         </div>
         <blockquote class="text-xl md:text-2xl font-bold text-brand-accent mb-6 italic leading-snug" data-i18n="stories.card1.quote">
-          "告別無聊的辦公室咖啡。SCMALL 為我們打造了感官體驗。"
+          "Chill Zone 進駐後，旅客說這裡終於有家的感覺了。"
         </blockquote>
         <p class="text-sm text-brand-muted leading-relaxed mb-8" data-i18n="stories.card1.desc">
-          從自動販賣機到 Tactile Curator 模式的轉變，通過提供一個真正的休憩空間，将创意部门的员工流动率降低。
+          啟航1331由隔離設施改建，公共空間曾經冷冰冰。Chill Zone 為來自世界各地的背包客和年輕旅客，提供了一個可以放鬆、社交、補充能量的角落。從清晨的咖啡到深夜的冰滴茶，每一杯都是旅程中的小確幸。
         </p>
         <button class="mt-auto self-start px-6 py-2 rounded-full border border-brand-accent/20 hover:bg-brand-accent/5 transition-all text-sm font-bold" data-i18n="stories.card1.btn">
           查看圖庫
@@ -383,90 +435,16 @@ tailwind.config = {
           <span class="material-icons text-5xl opacity-40">format_quote</span>
         </div>
         <h4 class="text-3xl font-extrabold mb-6 leading-tight" data-i18n="stories.card2.title">
-          在 15 個分支辦公室擴展文化
+          從隔離營到背包客之家
         </h4>
         <p class="opacity-80 leading-relaxed mb-10" data-i18n="stories.card2.desc">
-          "一致性是我們最大的挑戰。SCMALL 使我們能夠在全球範圍內部署相同的高端茶歇體驗，同時尊重當地口味。"
+          "我們希望每一個走進來的年輕人，都能感受到這座城市最真實的溫度。Chill Zone 不只是飲料機，它是一種連結。"
         </p>
         <div class="mt-auto flex justify-between items-center">
-          <span class="text-xs font-bold uppercase tracking-widest opacity-60" data-i18n="stories.card2.case">案例 #402</span>
+          <span class="text-xs font-bold uppercase tracking-widest opacity-60" data-i18n="stories.card2.case">案例 #403</span>
           <a class="bg-white text-brand-accent p-3 rounded-full hover:scale-110 transition-transform" href="#">
             <span class="material-icons block">play_arrow</span>
           </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Cooperation Section -->
-  <section class="py-16 bg-white/50 backdrop-blur-sm rounded-3xl px-8 my-16 border border-brand-border">
-    <div class="mb-12">
-      <h2 class="text-2xl md:text-3xl font-extrabold mb-4" data-i18n="coop.title">香港智能販賣機加盟與合作</h2>
-      <p class="text-brand-muted" data-i18n="coop.subtitle">圍繞品牌展示、產品上架與合作招商，提供面向香港市場的一體化落地解決方案</p>
-    </div>
-
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-      <!-- Steps -->
-      <div>
-        <h3 class="text-xl font-bold mb-8" data-i18n="coop.stepsTitle">合作流程</h3>
-        <div class="space-y-6">
-          <div class="flex gap-4">
-            <div class="w-10 h-10 rounded-full bg-brand-dark text-white flex items-center justify-center font-bold flex-shrink-0">1</div>
-            <div>
-              <h4 class="font-bold text-lg" data-i18n="coop.step1.title">提交意向</h4>
-              <p class="text-sm text-brand-muted mt-1" data-i18n="coop.step1.desc">提交合作意向與區域信息，預定招商經理對接</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="w-10 h-10 rounded-full bg-brand-dark text-white flex items-center justify-center font-bold flex-shrink-0">2</div>
-            <div>
-              <h4 class="font-bold text-lg" data-i18n="coop.step2.title">點位評估</h4>
-              <p class="text-sm text-brand-muted mt-1" data-i18n="coop.step2.desc">專業團隊進行點位評估與選品策略建議</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="w-10 h-10 rounded-full bg-brand-dark text-white flex items-center justify-center font-bold flex-shrink-0">3</div>
-            <div>
-              <h4 class="font-bold text-lg" data-i18n="coop.step3.title">簽約部署</h4>
-              <p class="text-sm text-brand-muted mt-1" data-i18n="coop.step3.desc">簽訂合同與設備部署，香港本地團隊全程服務</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="w-10 h-10 rounded-full bg-brand-dark text-white flex items-center justify-center font-bold flex-shrink-0">4</div>
-            <div>
-              <h4 class="font-bold text-lg" data-i18n="coop.step4.title">持續運營</h4>
-              <p class="text-sm text-brand-muted mt-1" data-i18n="coop.step4.desc">營運複盤與持續優化，保障穩定收益</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Models -->
-      <div>
-        <h3 class="text-xl font-bold mb-8" data-i18n="coop.modelsTitle">加盟方式</h3>
-        <div class="space-y-4">
-          <div class="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-            <div class="flex justify-between items-start mb-4">
-              <div>
-                <h4 class="font-extrabold text-lg mb-1" data-i18n="model1.title">標準加盟</h4>
-                <p class="text-sm text-brand-muted" data-i18n="model1.desc">適合中小型點位，快速部署熱門飲品與零食機</p>
-              </div>
-              <span class="px-3 py-1 bg-brand-accent/10 text-brand-accent text-xs font-bold rounded-full" data-i18n="model.hot">熱門</span>
-            </div>
-            <button class="w-full py-3 bg-brand-accent text-white font-bold rounded-lg hover:brightness-110 transition-all" data-i18n="model.getPlan">獲取方案</button>
-          </div>
-
-          <div class="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-            <h4 class="font-extrabold text-lg mb-1" data-i18n="model2.title">區域代理</h4>
-            <p class="text-sm text-brand-muted mb-4" data-i18n="model2.desc">適合連鎖門店與商場渠道，支持多點位統一運維</p>
-            <button class="w-full py-3 bg-white border-2 border-brand-dark text-brand-dark font-bold rounded-lg hover:bg-brand-dark hover:text-white transition-all" data-i18n="model.viewRights">查看權益</button>
-          </div>
-
-          <div class="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-            <h4 class="font-extrabold text-lg mb-1" data-i18n="model3.title">聯營合作</h4>
-            <p class="text-sm text-brand-muted mb-4" data-i18n="model3.desc">品牌方與場地聯營收益分成，靈活匹配交通樞紐與寫字樓</p>
-            <button class="w-full py-3 bg-brand-accent text-white font-bold rounded-lg hover:brightness-110 transition-all" data-i18n="model.contactNow">即刻洽談</button>
-          </div>
         </div>
       </div>
     </div>
@@ -684,14 +662,14 @@ const translations = {
     'stories.featured.title': 'Chill Zone 入駐嘉多娜麵包店',
     'stories.featured.desc': '嘉多娜麵包店以天然食材與每日新鮮出爐聞名，引入 Chill Zone 健康飲品專區後，顧客在排隊等候時即可享用低糖果汁與草本茶飲，實現「購包配飲」的一站式健康生活體驗。',
     'stories.featured.link': '探索更多案例',
-    'stories.card1.name': 'Mark J. Sterling',
-    'stories.card1.role': '設施總監',
-    'stories.card1.quote': '"告別無聊的辦公室咖啡。SCMALL 為我們打造了感官體驗。"',
-    'stories.card1.desc': '從自動販賣機到 Tactile Curator 模式的轉變，通過提供一個真正的休憩空間，将创意部门的员工流动率降低。',
+    'stories.card1.name': 'Michel Kwok',
+    'stories.card1.role': '青年旅舍管理員',
+    'stories.card1.quote': '"Chill Zone 進駐後，旅客說這裡終於有家的感覺了。"',
+    'stories.card1.desc': '啟航1331由隔離設施改建，公共空間曾經冷冰冰。Chill Zone 為來自世界各地的背包客和年輕旅客，提供了一個可以放鬆、社交、補充能量的角落。從清晨的咖啡到深夜的冰滴茶，每一杯都是旅程中的小確幸。',
     'stories.card1.btn': '查看圖庫',
-    'stories.card2.title': '在 15 個分支辦公室擴展文化',
-    'stories.card2.desc': '"一致性是我們最大的挑戰。SCMALL 使我們能夠在全球範圍內部署相同的高端茶歇體驗，同時尊重當地口味。"',
-    'stories.card2.case': '案例 #402'
+    'stories.card2.title': '從隔離營到背包客之家',
+    'stories.card2.desc': '"我們希望每一個走進來的年輕人，都能感受到這座城市最真實的溫度。Chill Zone 不只是飲料機，它是一種連結。"',
+    'stories.card2.case': '案例 #403'
   },
   en: {
     pageTitle: 'SCMALL HK - Smart Vending Franchise in Hong Kong',
@@ -802,14 +780,14 @@ const translations = {
     'stories.featured.title': 'Chill Zone x Gadorna Bakery',
     'stories.featured.desc': 'Known for natural ingredients and daily fresh bakes, Gadorna Bakery introduced the Chill Zone healthy beverage zone, letting customers enjoy low-sugar juices and herbal teas while waiting — a one-stop healthy lifestyle experience.',
     'stories.featured.link': 'Explore More Cases',
-    'stories.card1.name': 'Mark J. Sterling',
-    'stories.card1.role': 'Facilities Director',
-    'stories.card1.quote': '"Gone are the days of boring office coffee. SCMALL curated a sensory experience."',
-    'stories.card1.desc': 'The shift from vending machines to a Tactile Curator model reduced turnover in our creative department by providing a dedicated space for genuine recharge.',
+    'stories.card1.name': 'Michel Kwok',
+    'stories.card1.role': 'Hostel Manager',
+    'stories.card1.quote': '"After Chill Zone arrived, guests said it finally felt like home."',
+    'stories.card1.desc': 'Runway 1331 was converted from a quarantine center, and the common areas felt cold and impersonal. Chill Zone gave backpackers and young travelers from around the world a place to relax, connect, and recharge — from morning coffee to late-night iced tea.',
     'stories.card1.btn': 'View Gallery',
-    'stories.card2.title': 'Scaling Culture Across 15 Branch Offices',
-    'stories.card2.desc': '"Consistency was our biggest challenge. SCMALL allowed us to deploy the same high-end refreshment experience globally while respecting local tastes."',
-    'stories.card2.case': 'Case Study #402'
+    'stories.card2.title': 'From Quarantine Camp to Backpacker Haven',
+    'stories.card2.desc': '"We want every young person who walks in to feel the truest warmth of this city. Chill Zone is not just a vending machine — it is a connection."',
+    'stories.card2.case': 'Case Study #403'
   }
 };
 
@@ -971,7 +949,7 @@ function renderActivities() {
           </div>
           ` : ''}
         </div>
-        <div class="p-6 flex flex-col flex-1">
+        <div class="p-4 pb-16 flex flex-col flex-1">
           <div class="flex items-center gap-2 mb-3">
             <span class="material-icons text-brand-accent text-sm">${act.icon}</span>
             <span class="text-xs font-bold uppercase tracking-tighter text-brand-muted">${info.location}</span>
